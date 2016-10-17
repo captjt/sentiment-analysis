@@ -1,0 +1,4 @@
+# ignored junk
+/env
+app.py
+sentiment_analysis.csv

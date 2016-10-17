@@ -11,6 +11,6 @@ The python modules used:
 
 - **Numpy**
 - **TextBlob**
-- **Tweepy**å
+- **Tweepy**
 
 Note: must have twitter API credentials to run the python script

@@ -1,3 +1,7 @@
+"""
+@Jordan Taylor
+Simple python script to run and determine emotional/subjectivity context from Tweets
+"""
 import csv
 import tweepy
 import numpy as np
@@ -29,7 +33,7 @@ for i in range(total_tweets):
     if emotion [0, i] < 0:
         sentiment[0, i] = 'Negative'
     elif emotion [0, i] == 0:
-        sentiment[0, i] ='Neutral'
+        sentiment[0, i] = 'None'
     else:
         sentiment[0, i] = 'Positive'
 
